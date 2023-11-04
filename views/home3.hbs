@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Exámen | Desarrollo Web </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        {{>header}}
+
+        <main class="hero">
+            <div class="bio animate__animated animate__shakeX">
+                <h2 class="bio-title">
+                    <h1>Vehículos terrestres de Carga</h1>
+                </h2>
+                <p class="bio-text">
+                    El transporte terrestre de carga — que se efectúa utilizando camiones— ofrece una variedad de opciones para satisfacer las necesidades logísticas de distintos tipos de mercancías. Ya sea haciendo uso de camiones articulados o rígidos, cada uno tiene sus propias ventajas y aplicaciones específicas. 
+
+                    La elección del tipo de camión a ocupar dependerá de factores como la naturaleza de la carga, la distancia a recorrer, los requisitos de tiempo y la eficiencia logística. Al comprender estas diferencias, los profesionales de la logística pueden tomar decisiones informadas para optimizar sus envíos por tierra.
+
+                    En este blog exploraremos los tipos de vehículos de este transporte, cuáles son sus ventajas y en qué se diferencian unos de otros
+                </p>
+            </div>
+            <img src="./Images/carga1.jpg" alt="Dallana García picture">
+        </main>
+    </div>
+
+    <div class="about" id="about">
+        <img src="./Images/carga2.png">
+        <div class="about-info">
+            <h2>¿Qué es el transporte terrestre de carga</h2>
+            <div class="divider"></div>
+            <p>
+                Este modo de tránsito es donde se movilizan mercancías, productos o materiales a través de diversos tipos de camiones, como los frigoríficos, portacoches o de lona, entre muchos otros. 
+                Es un componente esencial de la cadena de suministro y desempeña un papel crucial en la distribución de mercancías a nivel local, regional, nacional e internacional, ya que se utiliza para el envío de 
+                una amplia variedad de mercancías, desde productos manufacturados y alimentos, hasta materias primas y productos a granel. 
+            </p>
+        </div>
+    </div>
+
+   {{>footer}}
+
+    <script src="js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
